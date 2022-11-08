@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NcGgfEP1hfQuBe5Tp+c5rkEdkhWqurA4MIVykH4e3SzJY4jTy2+SzYAQDQMzdBSGsVLmwmnQ2XNWbU4Lnr7tVQ==",
+  "dgSpecHash": "7/8/58jcuysXOhZVskCYxA14K4fmc1tr04wFugteKmENsze7mfZ0nXvYhjchp3nSE/dDoxkrj+Ax/o/UDiy2Zg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\yunus\\source\\repos\\RealEstate.PresentationLayer\\RealEstate.EntityLayer\\RealEstate.EntityLayer.csproj",
+  "projectFilePath": "C:\\Users\\yunus\\OneDrive - 2\\Masaüstü\\clone\\Asp-Core\\RealEstate.PresentationLayer\\RealEstate.EntityLayer\\RealEstate.EntityLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yunus\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\yunus\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

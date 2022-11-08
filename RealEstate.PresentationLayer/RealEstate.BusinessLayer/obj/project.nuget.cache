@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e0bvXgQRglEusg9wMAYfrgGn/S5glNyop2+MoUFNou8ocLMfH+h6ouHHdVRCRCtorcZYgQ6KYQjvI1j/mDfWDg==",
+  "dgSpecHash": "gHzTGKkrAhZ4V+RpDBVhT5OU8bPW1mWh+YBzdX7WjtqWfFVAcgB6SjBZRusJkLnhF9ikrQnuxbutpNtBB94Inw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\yunus\\source\\repos\\RealEstate.PresentationLayer\\RealEstate.BusinessLayer\\RealEstate.BusinessLayer.csproj",
+  "projectFilePath": "C:\\Users\\yunus\\OneDrive - 2\\Masaüstü\\clone\\Asp-Core\\RealEstate.PresentationLayer\\RealEstate.BusinessLayer\\RealEstate.BusinessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yunus\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
     "C:\\Users\\yunus\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
