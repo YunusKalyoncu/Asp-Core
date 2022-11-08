@@ -1,18 +1,36 @@
-C:\Users\yunus\source\repos\RealEstate.PresentationLayer\RealEstate.DataAccessLayer\bin\Debug\net5.0\RealEstate.DataAccessLayer.deps.json
-C:\Users\yunus\source\repos\RealEstate.PresentationLayer\RealEstate.DataAccessLayer\bin\Debug\net5.0\RealEstate.DataAccessLayer.runtimeconfig.json
-C:\Users\yunus\source\repos\RealEstate.PresentationLayer\RealEstate.DataAccessLayer\bin\Debug\net5.0\RealEstate.DataAccessLayer.runtimeconfig.dev.json
-C:\Users\yunus\source\repos\RealEstate.PresentationLayer\RealEstate.DataAccessLayer\bin\Debug\net5.0\RealEstate.DataAccessLayer.dll
-C:\Users\yunus\source\repos\RealEstate.PresentationLayer\RealEstate.DataAccessLayer\bin\Debug\net5.0\ref\RealEstate.DataAccessLayer.dll
-C:\Users\yunus\source\repos\RealEstate.PresentationLayer\RealEstate.DataAccessLayer\bin\Debug\net5.0\RealEstate.DataAccessLayer.pdb
-C:\Users\yunus\source\repos\RealEstate.PresentationLayer\RealEstate.DataAccessLayer\bin\Debug\net5.0\RealEstate.EntityLayer.dll
-C:\Users\yunus\source\repos\RealEstate.PresentationLayer\RealEstate.DataAccessLayer\bin\Debug\net5.0\RealEstate.EntityLayer.pdb
-C:\Users\yunus\source\repos\RealEstate.PresentationLayer\RealEstate.DataAccessLayer\obj\Debug\net5.0\RealEstate.DataAccessLayer.csproj.AssemblyReference.cache
-C:\Users\yunus\source\repos\RealEstate.PresentationLayer\RealEstate.DataAccessLayer\obj\Debug\net5.0\RealEstate.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\yunus\source\repos\RealEstate.PresentationLayer\RealEstate.DataAccessLayer\obj\Debug\net5.0\RealEstate.DataAccessLayer.AssemblyInfoInputs.cache
-C:\Users\yunus\source\repos\RealEstate.PresentationLayer\RealEstate.DataAccessLayer\obj\Debug\net5.0\RealEstate.DataAccessLayer.AssemblyInfo.cs
-C:\Users\yunus\source\repos\RealEstate.PresentationLayer\RealEstate.DataAccessLayer\obj\Debug\net5.0\RealEstate.DataAccessLayer.csproj.CoreCompileInputs.cache
-C:\Users\yunus\source\repos\RealEstate.PresentationLayer\RealEstate.DataAccessLayer\obj\Debug\net5.0\RealEstate.DataAccessLayer.csproj.CopyComplete
-C:\Users\yunus\source\repos\RealEstate.PresentationLayer\RealEstate.DataAccessLayer\obj\Debug\net5.0\RealEstate.DataAccessLayer.dll
-C:\Users\yunus\source\repos\RealEstate.PresentationLayer\RealEstate.DataAccessLayer\obj\Debug\net5.0\ref\RealEstate.DataAccessLayer.dll
-C:\Users\yunus\source\repos\RealEstate.PresentationLayer\RealEstate.DataAccessLayer\obj\Debug\net5.0\RealEstate.DataAccessLayer.pdb
-C:\Users\yunus\source\repos\RealEstate.PresentationLayer\RealEstate.DataAccessLayer\obj\Debug\net5.0\RealEstate.DataAccessLayer.genruntimeconfig.cache
+C:\Users\yunus\OneDrive - 2\Masaüstü\RealEstate.PresentationLayer-master\RealEstate.PresentationLayer-master\RealEstate.DataAccessLayer\bin\Debug\net5.0\RealEstate.DataAccessLayer.deps.json
+C:\Users\yunus\OneDrive - 2\Masaüstü\RealEstate.PresentationLayer-master\RealEstate.PresentationLayer-master\RealEstate.DataAccessLayer\bin\Debug\net5.0\RealEstate.DataAccessLayer.runtimeconfig.json
+C:\Users\yunus\OneDrive - 2\Masaüstü\RealEstate.PresentationLayer-master\RealEstate.PresentationLayer-master\RealEstate.DataAccessLayer\bin\Debug\net5.0\RealEstate.DataAccessLayer.runtimeconfig.dev.json
+C:\Users\yunus\OneDrive - 2\Masaüstü\RealEstate.PresentationLayer-master\RealEstate.PresentationLayer-master\RealEstate.DataAccessLayer\bin\Debug\net5.0\RealEstate.DataAccessLayer.dll
+C:\Users\yunus\OneDrive - 2\Masaüstü\RealEstate.PresentationLayer-master\RealEstate.PresentationLayer-master\RealEstate.DataAccessLayer\bin\Debug\net5.0\ref\RealEstate.DataAccessLayer.dll
+C:\Users\yunus\OneDrive - 2\Masaüstü\RealEstate.PresentationLayer-master\RealEstate.PresentationLayer-master\RealEstate.DataAccessLayer\bin\Debug\net5.0\RealEstate.DataAccessLayer.pdb
+C:\Users\yunus\OneDrive - 2\Masaüstü\RealEstate.PresentationLayer-master\RealEstate.PresentationLayer-master\RealEstate.DataAccessLayer\bin\Debug\net5.0\RealEstate.EntityLayer.dll
+C:\Users\yunus\OneDrive - 2\Masaüstü\RealEstate.PresentationLayer-master\RealEstate.PresentationLayer-master\RealEstate.DataAccessLayer\bin\Debug\net5.0\RealEstate.EntityLayer.pdb
+C:\Users\yunus\OneDrive - 2\Masaüstü\RealEstate.PresentationLayer-master\RealEstate.PresentationLayer-master\RealEstate.DataAccessLayer\obj\Debug\net5.0\RealEstate.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\yunus\OneDrive - 2\Masaüstü\RealEstate.PresentationLayer-master\RealEstate.PresentationLayer-master\RealEstate.DataAccessLayer\obj\Debug\net5.0\RealEstate.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yunus\OneDrive - 2\Masaüstü\RealEstate.PresentationLayer-master\RealEstate.PresentationLayer-master\RealEstate.DataAccessLayer\obj\Debug\net5.0\RealEstate.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\yunus\OneDrive - 2\Masaüstü\RealEstate.PresentationLayer-master\RealEstate.PresentationLayer-master\RealEstate.DataAccessLayer\obj\Debug\net5.0\RealEstate.DataAccessLayer.AssemblyInfo.cs
+C:\Users\yunus\OneDrive - 2\Masaüstü\RealEstate.PresentationLayer-master\RealEstate.PresentationLayer-master\RealEstate.DataAccessLayer\obj\Debug\net5.0\RealEstate.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\yunus\OneDrive - 2\Masaüstü\RealEstate.PresentationLayer-master\RealEstate.PresentationLayer-master\RealEstate.DataAccessLayer\obj\Debug\net5.0\RealEstate.DataAccessLayer.csproj.CopyComplete
+C:\Users\yunus\OneDrive - 2\Masaüstü\RealEstate.PresentationLayer-master\RealEstate.PresentationLayer-master\RealEstate.DataAccessLayer\obj\Debug\net5.0\RealEstate.DataAccessLayer.dll
+C:\Users\yunus\OneDrive - 2\Masaüstü\RealEstate.PresentationLayer-master\RealEstate.PresentationLayer-master\RealEstate.DataAccessLayer\obj\Debug\net5.0\ref\RealEstate.DataAccessLayer.dll
+C:\Users\yunus\OneDrive - 2\Masaüstü\RealEstate.PresentationLayer-master\RealEstate.PresentationLayer-master\RealEstate.DataAccessLayer\obj\Debug\net5.0\RealEstate.DataAccessLayer.pdb
+C:\Users\yunus\OneDrive - 2\Masaüstü\RealEstate.PresentationLayer-master\RealEstate.PresentationLayer-master\RealEstate.DataAccessLayer\obj\Debug\net5.0\RealEstate.DataAccessLayer.genruntimeconfig.cache
+C:\Users\yunus\OneDrive - 2\Masaüstü\RealEstate.PresentationLayer\RealEstate.PresentationLayer\RealEstate.DataAccessLayer\bin\Debug\net5.0\RealEstate.DataAccessLayer.deps.json
+C:\Users\yunus\OneDrive - 2\Masaüstü\RealEstate.PresentationLayer\RealEstate.PresentationLayer\RealEstate.DataAccessLayer\bin\Debug\net5.0\RealEstate.DataAccessLayer.runtimeconfig.json
+C:\Users\yunus\OneDrive - 2\Masaüstü\RealEstate.PresentationLayer\RealEstate.PresentationLayer\RealEstate.DataAccessLayer\bin\Debug\net5.0\RealEstate.DataAccessLayer.runtimeconfig.dev.json
+C:\Users\yunus\OneDrive - 2\Masaüstü\RealEstate.PresentationLayer\RealEstate.PresentationLayer\RealEstate.DataAccessLayer\bin\Debug\net5.0\RealEstate.DataAccessLayer.dll
+C:\Users\yunus\OneDrive - 2\Masaüstü\RealEstate.PresentationLayer\RealEstate.PresentationLayer\RealEstate.DataAccessLayer\bin\Debug\net5.0\ref\RealEstate.DataAccessLayer.dll
+C:\Users\yunus\OneDrive - 2\Masaüstü\RealEstate.PresentationLayer\RealEstate.PresentationLayer\RealEstate.DataAccessLayer\bin\Debug\net5.0\RealEstate.DataAccessLayer.pdb
+C:\Users\yunus\OneDrive - 2\Masaüstü\RealEstate.PresentationLayer\RealEstate.PresentationLayer\RealEstate.DataAccessLayer\bin\Debug\net5.0\RealEstate.EntityLayer.dll
+C:\Users\yunus\OneDrive - 2\Masaüstü\RealEstate.PresentationLayer\RealEstate.PresentationLayer\RealEstate.DataAccessLayer\bin\Debug\net5.0\RealEstate.EntityLayer.pdb
+C:\Users\yunus\OneDrive - 2\Masaüstü\RealEstate.PresentationLayer\RealEstate.PresentationLayer\RealEstate.DataAccessLayer\obj\Debug\net5.0\RealEstate.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\yunus\OneDrive - 2\Masaüstü\RealEstate.PresentationLayer\RealEstate.PresentationLayer\RealEstate.DataAccessLayer\obj\Debug\net5.0\RealEstate.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yunus\OneDrive - 2\Masaüstü\RealEstate.PresentationLayer\RealEstate.PresentationLayer\RealEstate.DataAccessLayer\obj\Debug\net5.0\RealEstate.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\yunus\OneDrive - 2\Masaüstü\RealEstate.PresentationLayer\RealEstate.PresentationLayer\RealEstate.DataAccessLayer\obj\Debug\net5.0\RealEstate.DataAccessLayer.AssemblyInfo.cs
+C:\Users\yunus\OneDrive - 2\Masaüstü\RealEstate.PresentationLayer\RealEstate.PresentationLayer\RealEstate.DataAccessLayer\obj\Debug\net5.0\RealEstate.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\yunus\OneDrive - 2\Masaüstü\RealEstate.PresentationLayer\RealEstate.PresentationLayer\RealEstate.DataAccessLayer\obj\Debug\net5.0\RealEstate.DataAccessLayer.csproj.CopyComplete
+C:\Users\yunus\OneDrive - 2\Masaüstü\RealEstate.PresentationLayer\RealEstate.PresentationLayer\RealEstate.DataAccessLayer\obj\Debug\net5.0\RealEstate.DataAccessLayer.dll
+C:\Users\yunus\OneDrive - 2\Masaüstü\RealEstate.PresentationLayer\RealEstate.PresentationLayer\RealEstate.DataAccessLayer\obj\Debug\net5.0\ref\RealEstate.DataAccessLayer.dll
+C:\Users\yunus\OneDrive - 2\Masaüstü\RealEstate.PresentationLayer\RealEstate.PresentationLayer\RealEstate.DataAccessLayer\obj\Debug\net5.0\RealEstate.DataAccessLayer.pdb
+C:\Users\yunus\OneDrive - 2\Masaüstü\RealEstate.PresentationLayer\RealEstate.PresentationLayer\RealEstate.DataAccessLayer\obj\Debug\net5.0\RealEstate.DataAccessLayer.genruntimeconfig.cache

@@ -9,16 +9,16 @@ namespace RealEstate.PresentationLayer.Controllers
 {
     public class CategoryController : Controller
     {
-        ICategoryService _categoryservice;
+        ICategoryService _categoryService;
 
-        public CategoryController(ICategoryService categoryservice)
+        public CategoryController(ICategoryService categoryService)
         {
-            _categoryservice = categoryservice;
+            _categoryService = categoryService;
         }
 
         public IActionResult Index()
         {
-            var values = _categoryservice.TGetList();
+            var values = _categoryService.TGetList();
             return View(values);
         }
     }

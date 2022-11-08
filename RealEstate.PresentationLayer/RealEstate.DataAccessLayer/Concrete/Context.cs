@@ -14,9 +14,11 @@ namespace RealEstate.DataAccessLayer.Concrete
         {
             optionsBuilder.UseSqlServer("Server=YUNUS\\SQLEXPRESS;initial catalog=DbCoreRealEstate;integrated security=true");
         }
+
         public DbSet<Member> Members { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Contact> Contacts { get; set; }
         public DbSet<About> Abouts { get; set; }
+        public DbSet<Product> Products { get; set; }
     }
 }

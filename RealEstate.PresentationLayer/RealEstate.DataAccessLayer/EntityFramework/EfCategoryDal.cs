@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace RealEstate.DataAccessLayer.EntityFramework
 {
-    public class EfCategoryDal:GenericRepository<Category>,ICategoryDal
+    public class EfCategoryDal : GenericRepository<Category>,ICategoryDal
     {
     }
 }

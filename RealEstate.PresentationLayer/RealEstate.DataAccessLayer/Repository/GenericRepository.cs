@@ -8,13 +8,18 @@ using System.Threading.Tasks;
 
 namespace RealEstate.DataAccessLayer.Repository
 {
-    public class GenericRepository<T> : IGenereicDal<T> where T : class
+    public class GenericRepository<T> : IGenericDal<T> where T : class
     {
         Context context = new Context();
         public void Delete(T t)
         {
             context.Remove(t);
             context.SaveChanges();
+        }
+
+        public T GetByID(int id)
+        {
+            return context.Set<T>().Find(id);
         }
 
         public List<T> GetList()

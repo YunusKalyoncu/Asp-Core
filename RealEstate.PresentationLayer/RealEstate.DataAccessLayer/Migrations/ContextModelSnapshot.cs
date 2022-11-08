@@ -68,13 +68,10 @@ namespace RealEstate.DataAccessLayer.Migrations
                     b.Property<string>("ContactMessage")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ContactName")
+                    b.Property<string>("ContactNameSurname")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ContactSubject")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ContactSurName")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("ContactID");
@@ -104,6 +101,57 @@ namespace RealEstate.DataAccessLayer.Migrations
                     b.HasKey("MemberID");
 
                     b.ToTable("Members");
+                });
+
+            modelBuilder.Entity("RealEstate.EntityLayer.Concrete.Product", b =>
+                {
+                    b.Property<int>("ProductID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("CategoryID")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Image")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Price")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ProductMail")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Title")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ProductID");
+
+                    b.HasIndex("CategoryID");
+
+                    b.ToTable("Products");
+                });
+
+            modelBuilder.Entity("RealEstate.EntityLayer.Concrete.Product", b =>
+                {
+                    b.HasOne("RealEstate.EntityLayer.Concrete.Category", "Category")
+                        .WithMany("Products")
+                        .HasForeignKey("CategoryID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("RealEstate.EntityLayer.Concrete.Category", b =>
+                {
+                    b.Navigation("Products");
                 });
 #pragma warning restore 612, 618
         }

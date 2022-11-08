@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace RealEstate.DataAccessLayer.EntityFramework
 {
-    public class EfContactDal:GenericRepository<Contact>
+    public class EfContactDal : GenericRepository<Contact>
     {
     }
 }

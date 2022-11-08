@@ -9,6 +9,5 @@ namespace RealEstate.BusinessLayer.Abstract
 {
     public interface IContactService:IGenericService<Contact>
     {
-       
     }
 }

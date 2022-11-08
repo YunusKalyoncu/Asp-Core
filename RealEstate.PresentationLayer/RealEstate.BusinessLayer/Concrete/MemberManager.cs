@@ -23,6 +23,11 @@ namespace RealEstate.BusinessLayer.Concrete
             _memberDal.Delete(t);
         }
 
+        public Member TGetByID(int id)
+        {
+            return _memberDal.GetByID(id);
+        }
+
         public List<Member> TGetList()
         {
             return _memberDal.GetList();
@@ -30,7 +35,6 @@ namespace RealEstate.BusinessLayer.Concrete
 
         public void TInsert(Member t)
         {
-            
             _memberDal.Insert(t);
         }
 

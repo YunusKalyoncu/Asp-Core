@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yunus\\source\\repos\\RealEstate.PresentationLayer\\RealEstate.EntityLayer\\RealEstate.EntityLayer.csproj": {}
+    "C:\\Users\\yunus\\OneDrive - 2\\Masaüstü\\RealEstate.PresentationLayer\\RealEstate.PresentationLayer\\RealEstate.EntityLayer\\RealEstate.EntityLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yunus\\source\\repos\\RealEstate.PresentationLayer\\RealEstate.EntityLayer\\RealEstate.EntityLayer.csproj": {
+    "C:\\Users\\yunus\\OneDrive - 2\\Masaüstü\\RealEstate.PresentationLayer\\RealEstate.PresentationLayer\\RealEstate.EntityLayer\\RealEstate.EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yunus\\source\\repos\\RealEstate.PresentationLayer\\RealEstate.EntityLayer\\RealEstate.EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\yunus\\OneDrive - 2\\Masaüstü\\RealEstate.PresentationLayer\\RealEstate.PresentationLayer\\RealEstate.EntityLayer\\RealEstate.EntityLayer.csproj",
         "projectName": "RealEstate.EntityLayer",
-        "projectPath": "C:\\Users\\yunus\\source\\repos\\RealEstate.PresentationLayer\\RealEstate.EntityLayer\\RealEstate.EntityLayer.csproj",
+        "projectPath": "C:\\Users\\yunus\\OneDrive - 2\\Masaüstü\\RealEstate.PresentationLayer\\RealEstate.PresentationLayer\\RealEstate.EntityLayer\\RealEstate.EntityLayer.csproj",
         "packagesPath": "C:\\Users\\yunus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yunus\\source\\repos\\RealEstate.PresentationLayer\\RealEstate.EntityLayer\\obj\\",
+        "outputPath": "C:\\Users\\yunus\\OneDrive - 2\\Masaüstü\\RealEstate.PresentationLayer\\RealEstate.PresentationLayer\\RealEstate.EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yunus\\AppData\\Roaming\\NuGet\\NuGet.Config",

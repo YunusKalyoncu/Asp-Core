@@ -12,6 +12,5 @@ namespace RealEstate.EntityLayer.Concrete
         [Key]
         public int AboutID { get; set; }
         public string AboutDescription { get; set; }
-
     }
 }

@@ -23,6 +23,11 @@ namespace RealEstate.BusinessLayer.Concrete
             _categoryDal.Delete(t);
         }
 
+        public Category TGetByID(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public List<Category> TGetList()
         {
             return _categoryDal.GetList();

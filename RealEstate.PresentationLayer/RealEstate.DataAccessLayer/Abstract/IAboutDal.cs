@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace RealEstate.DataAccessLayer.Abstract
 {
-    public interface IAboutDal:IGenereicDal<About>
+    public interface IAboutDal : IGenericDal<About>
     {
     }
 }

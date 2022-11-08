@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 
 namespace RealEstate.DataAccessLayer.Abstract
 {
-    public interface IMemberDal:IGenereicDal<Member>
+    public interface IMemberDal : IGenericDal<Member>
     {
-        
     }
 }
