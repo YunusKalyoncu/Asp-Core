@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yunus\\OneDrive - 2\\Masaüstü\\RealEstate.PresentationLayer\\RealEstate.PresentationLayer\\RealEstate.EntityLayer\\RealEstate.EntityLayer.csproj": {}
+    "C:\\Users\\yunus\\OneDrive - 2\\Masaüstü\\NetCore.RealEstate.Project-master\\RealEstate.PresentationLayer\\RealEstate.EntityLayer\\RealEstate.EntityLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yunus\\OneDrive - 2\\Masaüstü\\RealEstate.PresentationLayer\\RealEstate.PresentationLayer\\RealEstate.EntityLayer\\RealEstate.EntityLayer.csproj": {
+    "C:\\Users\\yunus\\OneDrive - 2\\Masaüstü\\NetCore.RealEstate.Project-master\\RealEstate.PresentationLayer\\RealEstate.EntityLayer\\RealEstate.EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yunus\\OneDrive - 2\\Masaüstü\\RealEstate.PresentationLayer\\RealEstate.PresentationLayer\\RealEstate.EntityLayer\\RealEstate.EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\yunus\\OneDrive - 2\\Masaüstü\\NetCore.RealEstate.Project-master\\RealEstate.PresentationLayer\\RealEstate.EntityLayer\\RealEstate.EntityLayer.csproj",
         "projectName": "RealEstate.EntityLayer",
-        "projectPath": "C:\\Users\\yunus\\OneDrive - 2\\Masaüstü\\RealEstate.PresentationLayer\\RealEstate.PresentationLayer\\RealEstate.EntityLayer\\RealEstate.EntityLayer.csproj",
+        "projectPath": "C:\\Users\\yunus\\OneDrive - 2\\Masaüstü\\NetCore.RealEstate.Project-master\\RealEstate.PresentationLayer\\RealEstate.EntityLayer\\RealEstate.EntityLayer.csproj",
         "packagesPath": "C:\\Users\\yunus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yunus\\OneDrive - 2\\Masaüstü\\RealEstate.PresentationLayer\\RealEstate.PresentationLayer\\RealEstate.EntityLayer\\obj\\",
+        "outputPath": "C:\\Users\\yunus\\OneDrive - 2\\Masaüstü\\NetCore.RealEstate.Project-master\\RealEstate.PresentationLayer\\RealEstate.EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yunus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.17, )"

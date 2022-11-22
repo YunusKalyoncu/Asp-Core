@@ -5,13 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Areas\Guest\Data\**" />
-    <Content Remove="Areas\Guest\Data\**" />
-    <EmbeddedResource Remove="Areas\Guest\Data\**" />
-    <None Remove="Areas\Guest\Data\**" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="EPPlus.Core" Version="1.5.4" />
     <PackageReference Include="FluentValidation.AspNetCore" Version="11.2.2" />
     <PackageReference Include="MailKit" Version="3.4.2" />
@@ -38,6 +31,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Areas\Guest\Data\" />
     <Folder Include="wwwroot\Image\" />
   </ItemGroup>
 
