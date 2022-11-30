@@ -33,9 +33,77 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Areas\Default\Data\" />
+    <Folder Include="Areas\Default\Models\" />
     <Folder Include="Areas\Guest\Data\" />
     <Folder Include="wwwroot\Image\" />
     <Folder Include="wwwroot\pdfreport\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\cooking-starter_Free22-10-2022_2017689104.zip" />
+    <None Include="wwwroot\Cooking-Starter\about.html" />
+    <None Include="wwwroot\Cooking-Starter\assets\css\style-starter.css" />
+    <None Include="wwwroot\Cooking-Starter\assets\images\ab.jpg" />
+    <None Include="wwwroot\Cooking-Starter\assets\images\about.jpg" />
+    <None Include="wwwroot\Cooking-Starter\assets\images\about1.jpg" />
+    <None Include="wwwroot\Cooking-Starter\assets\images\about2.jpg" />
+    <None Include="wwwroot\Cooking-Starter\assets\images\about3.jpg" />
+    <None Include="wwwroot\Cooking-Starter\assets\images\banner1.jpg" />
+    <None Include="wwwroot\Cooking-Starter\assets\images\banner2.jpg" />
+    <None Include="wwwroot\Cooking-Starter\assets\images\banner3.jpg" />
+    <None Include="wwwroot\Cooking-Starter\assets\images\banner4.jpg" />
+    <None Include="wwwroot\Cooking-Starter\assets\images\bg2.jpg" />
+    <None Include="wwwroot\Cooking-Starter\assets\images\bg3.jpg" />
+    <None Include="wwwroot\Cooking-Starter\assets\images\bg4.jpg" />
+    <None Include="wwwroot\Cooking-Starter\assets\images\bg5.jpg" />
+    <None Include="wwwroot\Cooking-Starter\assets\images\blog-s1.jpg" />
+    <None Include="wwwroot\Cooking-Starter\assets\images\blog-s2.jpg" />
+    <None Include="wwwroot\Cooking-Starter\assets\images\blog-s3.jpg" />
+    <None Include="wwwroot\Cooking-Starter\assets\images\blog-s4.jpg" />
+    <None Include="wwwroot\Cooking-Starter\assets\images\blog-s5.jpg" />
+    <None Include="wwwroot\Cooking-Starter\assets\images\blog-s6.jpg" />
+    <None Include="wwwroot\Cooking-Starter\assets\images\blog-s7.jpg" />
+    <None Include="wwwroot\Cooking-Starter\assets\images\blog-s8.jpg" />
+    <None Include="wwwroot\Cooking-Starter\assets\images\blog1.jpg" />
+    <None Include="wwwroot\Cooking-Starter\assets\images\blog2.jpg" />
+    <None Include="wwwroot\Cooking-Starter\assets\images\blog3.jpg" />
+    <None Include="wwwroot\Cooking-Starter\assets\images\c1.jpg" />
+    <None Include="wwwroot\Cooking-Starter\assets\images\c2.jpg" />
+    <None Include="wwwroot\Cooking-Starter\assets\images\c3.jpg" />
+    <None Include="wwwroot\Cooking-Starter\assets\images\contact.jpg" />
+    <None Include="wwwroot\Cooking-Starter\assets\images\team1.jpg" />
+    <None Include="wwwroot\Cooking-Starter\assets\images\team2.jpg" />
+    <None Include="wwwroot\Cooking-Starter\assets\images\team3.jpg" />
+    <None Include="wwwroot\Cooking-Starter\assets\images\testi1.jpg" />
+    <None Include="wwwroot\Cooking-Starter\assets\images\testi2.jpg" />
+    <None Include="wwwroot\Cooking-Starter\assets\images\testi3.jpg" />
+    <None Include="wwwroot\Cooking-Starter\assets\js\bootstrap.min.js" />
+    <None Include="wwwroot\Cooking-Starter\assets\js\jquery-3.3.1.min.js" />
+    <None Include="wwwroot\Cooking-Starter\assets\js\jquery.min.js" />
+    <None Include="wwwroot\Cooking-Starter\assets\js\jquery.zoomslider.min.js" />
+    <None Include="wwwroot\Cooking-Starter\assets\js\modernizr-2.6.2.min.js" />
+    <None Include="wwwroot\Cooking-Starter\assets\js\owl.carousel.js" />
+    <None Include="wwwroot\Cooking-Starter\assets\js\theme-change.js" />
+    <None Include="wwwroot\Cooking-Starter\assets\webfonts\fa-brands-400.eot" />
+    <None Include="wwwroot\Cooking-Starter\assets\webfonts\fa-brands-400.svg" />
+    <None Include="wwwroot\Cooking-Starter\assets\webfonts\fa-brands-400.ttf" />
+    <None Include="wwwroot\Cooking-Starter\assets\webfonts\fa-brands-400.woff" />
+    <None Include="wwwroot\Cooking-Starter\assets\webfonts\fa-brands-400.woff2" />
+    <None Include="wwwroot\Cooking-Starter\assets\webfonts\fa-regular-400.eot" />
+    <None Include="wwwroot\Cooking-Starter\assets\webfonts\fa-regular-400.svg" />
+    <None Include="wwwroot\Cooking-Starter\assets\webfonts\fa-regular-400.ttf" />
+    <None Include="wwwroot\Cooking-Starter\assets\webfonts\fa-regular-400.woff" />
+    <None Include="wwwroot\Cooking-Starter\assets\webfonts\fa-regular-400.woff2" />
+    <None Include="wwwroot\Cooking-Starter\assets\webfonts\fa-solid-900.eot" />
+    <None Include="wwwroot\Cooking-Starter\assets\webfonts\fa-solid-900.svg" />
+    <None Include="wwwroot\Cooking-Starter\assets\webfonts\fa-solid-900.ttf" />
+    <None Include="wwwroot\Cooking-Starter\assets\webfonts\fa-solid-900.woff" />
+    <None Include="wwwroot\Cooking-Starter\assets\webfonts\fa-solid-900.woff2" />
+    <None Include="wwwroot\Cooking-Starter\classes.html" />
+    <None Include="wwwroot\Cooking-Starter\contact.html" />
+    <None Include="wwwroot\Cooking-Starter\index.html" />
+    <None Include="wwwroot\Cooking-Starter\starter-license-W3Layouts.txt" />
   </ItemGroup>
 
 </Project>
