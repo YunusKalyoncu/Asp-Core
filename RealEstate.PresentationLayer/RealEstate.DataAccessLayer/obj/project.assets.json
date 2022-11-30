@@ -6641,11 +6641,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yunus\\OneDrive - 2\\Masaüstü\\NetCore.RealEstate.Project-master\\RealEstate.PresentationLayer\\RealEstate.DataAccessLayer\\RealEstate.DataAccessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\yunus\\source\\github dosyaları\\asp.core\\Asp-Core\\RealEstate.PresentationLayer\\RealEstate.DataAccessLayer\\RealEstate.DataAccessLayer.csproj",
       "projectName": "RealEstate.DataAccessLayer",
-      "projectPath": "C:\\Users\\yunus\\OneDrive - 2\\Masaüstü\\NetCore.RealEstate.Project-master\\RealEstate.PresentationLayer\\RealEstate.DataAccessLayer\\RealEstate.DataAccessLayer.csproj",
+      "projectPath": "C:\\Users\\yunus\\source\\github dosyaları\\asp.core\\Asp-Core\\RealEstate.PresentationLayer\\RealEstate.DataAccessLayer\\RealEstate.DataAccessLayer.csproj",
       "packagesPath": "C:\\Users\\yunus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yunus\\OneDrive - 2\\Masaüstü\\NetCore.RealEstate.Project-master\\RealEstate.PresentationLayer\\RealEstate.DataAccessLayer\\obj\\",
+      "outputPath": "C:\\Users\\yunus\\source\\github dosyaları\\asp.core\\Asp-Core\\RealEstate.PresentationLayer\\RealEstate.DataAccessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\yunus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6662,8 +6662,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\yunus\\OneDrive - 2\\Masaüstü\\NetCore.RealEstate.Project-master\\RealEstate.PresentationLayer\\RealEstate.EntityLayer\\RealEstate.EntityLayer.csproj": {
-              "projectPath": "C:\\Users\\yunus\\OneDrive - 2\\Masaüstü\\NetCore.RealEstate.Project-master\\RealEstate.PresentationLayer\\RealEstate.EntityLayer\\RealEstate.EntityLayer.csproj"
+            "C:\\Users\\yunus\\source\\github dosyaları\\asp.core\\Asp-Core\\RealEstate.PresentationLayer\\RealEstate.EntityLayer\\RealEstate.EntityLayer.csproj": {
+              "projectPath": "C:\\Users\\yunus\\source\\github dosyaları\\asp.core\\Asp-Core\\RealEstate.PresentationLayer\\RealEstate.EntityLayer\\RealEstate.EntityLayer.csproj"
             }
           }
         }

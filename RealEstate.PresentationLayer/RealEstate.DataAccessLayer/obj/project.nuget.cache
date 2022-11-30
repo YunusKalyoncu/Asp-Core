@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WioJeBcolpj0nY9xD09JEo+6Vi8REc5fbdgg+7x2xl8onHISwVNve1oRG7TPw4puz+GzCUSg46v5WshjYt0oQA==",
+  "dgSpecHash": "lQYS2ckxXJ6g0RrH7V0YDH1sdUL3jH+pfJBa8ZSnQSYDvMsUJBq9J47bkVelto6tmyIrLLzLHdRB6StpqEMSBQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\yunus\\OneDrive - 2\\Masaüstü\\NetCore.RealEstate.Project-master\\RealEstate.PresentationLayer\\RealEstate.DataAccessLayer\\RealEstate.DataAccessLayer.csproj",
+  "projectFilePath": "C:\\Users\\yunus\\source\\github dosyaları\\asp.core\\Asp-Core\\RealEstate.PresentationLayer\\RealEstate.DataAccessLayer\\RealEstate.DataAccessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yunus\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\yunus\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",

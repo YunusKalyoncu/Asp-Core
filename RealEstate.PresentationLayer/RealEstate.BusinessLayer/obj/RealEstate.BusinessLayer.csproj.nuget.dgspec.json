@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yunus\\OneDrive - 2\\Masaüstü\\NetCore.RealEstate.Project-master\\RealEstate.PresentationLayer\\RealEstate.BusinessLayer\\RealEstate.BusinessLayer.csproj": {}
+    "C:\\Users\\yunus\\source\\github dosyaları\\asp.core\\Asp-Core\\RealEstate.PresentationLayer\\RealEstate.BusinessLayer\\RealEstate.BusinessLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yunus\\OneDrive - 2\\Masaüstü\\NetCore.RealEstate.Project-master\\RealEstate.PresentationLayer\\RealEstate.BusinessLayer\\RealEstate.BusinessLayer.csproj": {
+    "C:\\Users\\yunus\\source\\github dosyaları\\asp.core\\Asp-Core\\RealEstate.PresentationLayer\\RealEstate.BusinessLayer\\RealEstate.BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yunus\\OneDrive - 2\\Masaüstü\\NetCore.RealEstate.Project-master\\RealEstate.PresentationLayer\\RealEstate.BusinessLayer\\RealEstate.BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\yunus\\source\\github dosyaları\\asp.core\\Asp-Core\\RealEstate.PresentationLayer\\RealEstate.BusinessLayer\\RealEstate.BusinessLayer.csproj",
         "projectName": "RealEstate.BusinessLayer",
-        "projectPath": "C:\\Users\\yunus\\OneDrive - 2\\Masaüstü\\NetCore.RealEstate.Project-master\\RealEstate.PresentationLayer\\RealEstate.BusinessLayer\\RealEstate.BusinessLayer.csproj",
+        "projectPath": "C:\\Users\\yunus\\source\\github dosyaları\\asp.core\\Asp-Core\\RealEstate.PresentationLayer\\RealEstate.BusinessLayer\\RealEstate.BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\yunus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yunus\\OneDrive - 2\\Masaüstü\\NetCore.RealEstate.Project-master\\RealEstate.PresentationLayer\\RealEstate.BusinessLayer\\obj\\",
+        "outputPath": "C:\\Users\\yunus\\source\\github dosyaları\\asp.core\\Asp-Core\\RealEstate.PresentationLayer\\RealEstate.BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yunus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\yunus\\OneDrive - 2\\Masaüstü\\NetCore.RealEstate.Project-master\\RealEstate.PresentationLayer\\RealEstate.DataAccessLayer\\RealEstate.DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\yunus\\OneDrive - 2\\Masaüstü\\NetCore.RealEstate.Project-master\\RealEstate.PresentationLayer\\RealEstate.DataAccessLayer\\RealEstate.DataAccessLayer.csproj"
+              "C:\\Users\\yunus\\source\\github dosyaları\\asp.core\\Asp-Core\\RealEstate.PresentationLayer\\RealEstate.DataAccessLayer\\RealEstate.DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\yunus\\source\\github dosyaları\\asp.core\\Asp-Core\\RealEstate.PresentationLayer\\RealEstate.DataAccessLayer\\RealEstate.DataAccessLayer.csproj"
               },
-              "C:\\Users\\yunus\\OneDrive - 2\\Masaüstü\\NetCore.RealEstate.Project-master\\RealEstate.PresentationLayer\\RealEstate.EntityLayer\\RealEstate.EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\yunus\\OneDrive - 2\\Masaüstü\\NetCore.RealEstate.Project-master\\RealEstate.PresentationLayer\\RealEstate.EntityLayer\\RealEstate.EntityLayer.csproj"
+              "C:\\Users\\yunus\\source\\github dosyaları\\asp.core\\Asp-Core\\RealEstate.PresentationLayer\\RealEstate.EntityLayer\\RealEstate.EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\yunus\\source\\github dosyaları\\asp.core\\Asp-Core\\RealEstate.PresentationLayer\\RealEstate.EntityLayer\\RealEstate.EntityLayer.csproj"
               }
             }
           }
@@ -91,14 +91,14 @@
         }
       }
     },
-    "C:\\Users\\yunus\\OneDrive - 2\\Masaüstü\\NetCore.RealEstate.Project-master\\RealEstate.PresentationLayer\\RealEstate.DataAccessLayer\\RealEstate.DataAccessLayer.csproj": {
+    "C:\\Users\\yunus\\source\\github dosyaları\\asp.core\\Asp-Core\\RealEstate.PresentationLayer\\RealEstate.DataAccessLayer\\RealEstate.DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yunus\\OneDrive - 2\\Masaüstü\\NetCore.RealEstate.Project-master\\RealEstate.PresentationLayer\\RealEstate.DataAccessLayer\\RealEstate.DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\yunus\\source\\github dosyaları\\asp.core\\Asp-Core\\RealEstate.PresentationLayer\\RealEstate.DataAccessLayer\\RealEstate.DataAccessLayer.csproj",
         "projectName": "RealEstate.DataAccessLayer",
-        "projectPath": "C:\\Users\\yunus\\OneDrive - 2\\Masaüstü\\NetCore.RealEstate.Project-master\\RealEstate.PresentationLayer\\RealEstate.DataAccessLayer\\RealEstate.DataAccessLayer.csproj",
+        "projectPath": "C:\\Users\\yunus\\source\\github dosyaları\\asp.core\\Asp-Core\\RealEstate.PresentationLayer\\RealEstate.DataAccessLayer\\RealEstate.DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\yunus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yunus\\OneDrive - 2\\Masaüstü\\NetCore.RealEstate.Project-master\\RealEstate.PresentationLayer\\RealEstate.DataAccessLayer\\obj\\",
+        "outputPath": "C:\\Users\\yunus\\source\\github dosyaları\\asp.core\\Asp-Core\\RealEstate.PresentationLayer\\RealEstate.DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yunus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -115,8 +115,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\yunus\\OneDrive - 2\\Masaüstü\\NetCore.RealEstate.Project-master\\RealEstate.PresentationLayer\\RealEstate.EntityLayer\\RealEstate.EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\yunus\\OneDrive - 2\\Masaüstü\\NetCore.RealEstate.Project-master\\RealEstate.PresentationLayer\\RealEstate.EntityLayer\\RealEstate.EntityLayer.csproj"
+              "C:\\Users\\yunus\\source\\github dosyaları\\asp.core\\Asp-Core\\RealEstate.PresentationLayer\\RealEstate.EntityLayer\\RealEstate.EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\yunus\\source\\github dosyaları\\asp.core\\Asp-Core\\RealEstate.PresentationLayer\\RealEstate.EntityLayer\\RealEstate.EntityLayer.csproj"
               }
             }
           }
@@ -179,14 +179,14 @@
         }
       }
     },
-    "C:\\Users\\yunus\\OneDrive - 2\\Masaüstü\\NetCore.RealEstate.Project-master\\RealEstate.PresentationLayer\\RealEstate.EntityLayer\\RealEstate.EntityLayer.csproj": {
+    "C:\\Users\\yunus\\source\\github dosyaları\\asp.core\\Asp-Core\\RealEstate.PresentationLayer\\RealEstate.EntityLayer\\RealEstate.EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yunus\\OneDrive - 2\\Masaüstü\\NetCore.RealEstate.Project-master\\RealEstate.PresentationLayer\\RealEstate.EntityLayer\\RealEstate.EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\yunus\\source\\github dosyaları\\asp.core\\Asp-Core\\RealEstate.PresentationLayer\\RealEstate.EntityLayer\\RealEstate.EntityLayer.csproj",
         "projectName": "RealEstate.EntityLayer",
-        "projectPath": "C:\\Users\\yunus\\OneDrive - 2\\Masaüstü\\NetCore.RealEstate.Project-master\\RealEstate.PresentationLayer\\RealEstate.EntityLayer\\RealEstate.EntityLayer.csproj",
+        "projectPath": "C:\\Users\\yunus\\source\\github dosyaları\\asp.core\\Asp-Core\\RealEstate.PresentationLayer\\RealEstate.EntityLayer\\RealEstate.EntityLayer.csproj",
         "packagesPath": "C:\\Users\\yunus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yunus\\OneDrive - 2\\Masaüstü\\NetCore.RealEstate.Project-master\\RealEstate.PresentationLayer\\RealEstate.EntityLayer\\obj\\",
+        "outputPath": "C:\\Users\\yunus\\source\\github dosyaları\\asp.core\\Asp-Core\\RealEstate.PresentationLayer\\RealEstate.EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yunus\\AppData\\Roaming\\NuGet\\NuGet.Config",
