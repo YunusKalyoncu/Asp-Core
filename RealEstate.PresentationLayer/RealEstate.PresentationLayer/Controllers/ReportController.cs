@@ -6,16 +6,17 @@ using Microsoft.AspNetCore.Mvc;
 using OfficeOpenXml;
 using RealEstate.DataAccessLayer.Concrete;
 using RealEstate.PresentationLayer.Models;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace RealEstate.PresentationLayer.Controllers
 {
     [AllowAnonymous]
     public class ReportController : Controller
     {
-
         public IActionResult Index()
         {
             return View();
@@ -48,13 +49,12 @@ namespace RealEstate.PresentationLayer.Controllers
 
             var bytes = excelPackage.GetAsByteArray();
             return File(bytes, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "akademi.xlsx");
-
         }
 
         public List<ProductReportViewModel> ProductList()
         {
             List<ProductReportViewModel> models = new List<ProductReportViewModel>();
-            using (var c = new Context())
+            using(var c=new Context())
             {
                 models = c.Products.Select(x => new ProductReportViewModel
                 {
@@ -69,7 +69,7 @@ namespace RealEstate.PresentationLayer.Controllers
 
         public IActionResult ExcelDynamic()
         {
-            using (var workBook = new XLWorkbook())
+            using(var workBook=new XLWorkbook())
             {
                 var workSheet = workBook.Worksheets.Add("İlan Listesi");
                 workSheet.Cell(1, 1).Value = "İlan Başlığı";
@@ -84,7 +84,7 @@ namespace RealEstate.PresentationLayer.Controllers
                     workSheet.Cell(rowCount, 3).Value = item.ProductDate;
                     rowCount++;
                 }
-                using (var stream = new MemoryStream())
+                using(var stream=new MemoryStream())
                 {
                     workBook.SaveAs(stream);
                     var content = stream.ToArray();
@@ -107,3 +107,8 @@ namespace RealEstate.PresentationLayer.Controllers
         }
     }
 }
+/*
+ 
+ Herhangi bir döviz kuru sitesinden son 1 aya ait döviz bilgilerini bir excel dosyasına çeken uygulamayı .Net Core ortamında geliştirin...
+ 
+ */

@@ -2,9 +2,6 @@
 using Microsoft.AspNetCore.Mvc;
 using RealEstate.EntityLayer.Concrete;
 using RealEstate.PresentationLayer.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace RealEstate.PresentationLayer.Controllers
@@ -28,7 +25,7 @@ namespace RealEstate.PresentationLayer.Controllers
         {
             if (ModelState.IsValid)
             {
-                var result =await _signInManager.PasswordSignInAsync(p.username, p.password, false, true);
+                var result = await _signInManager.PasswordSignInAsync(p.username, p.password, false, true);
                 if (result.Succeeded)
                 {
                     return RedirectToAction("Index", "Product");

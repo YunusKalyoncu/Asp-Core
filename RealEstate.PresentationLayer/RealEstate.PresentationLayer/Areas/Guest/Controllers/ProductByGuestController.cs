@@ -13,6 +13,7 @@ namespace RealEstate.PresentationLayer.Areas.Guest.Controllers
     [Area("Guest")]
     public class ProductByGuestController : Controller
     {
+
         private readonly IProductService _productService;
         private readonly ICategoryService _categoryService;
         private readonly UserManager<AppUser> _userManager;
@@ -27,34 +28,32 @@ namespace RealEstate.PresentationLayer.Areas.Guest.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            List<SelectListItem> categories = (from x in _categoryService.TGetList()
+            List<SelectListItem> values = (from x in _categoryService.TGetList()
                                            select new SelectListItem
                                            {
                                                Text = x.CategoryName,
                                                Value = x.CategoryID.ToString()
                                            }).ToList();
-            ViewBag.categories = categories;
+            ViewBag.v = values;
+
             return View();
         }
 
         [HttpPost]
-        public async Task<IActionResult> Index(Product product)
+        public async Task<IActionResult> Index(Product p)
         {
-            product.Date = Convert.ToDateTime(DateTime.Now.ToShortDateString());
+            p.Date = Convert.ToDateTime(DateTime.Now.ToShortDateString());
             var values = await _userManager.FindByNameAsync(User.Identity.Name);
-            product.AppUserID = values.Id;
-            _productService.TInsert(product);
+            p.AppUserID = values.Id;
+            _productService.TInsert(p);
             return RedirectToAction("Index", "Product");
         }
-
         public async Task<IActionResult> ProductListByGuest()
         {
             var values = await _userManager.FindByNameAsync(User.Identity.Name);
             var productValues = _productService.TGetProductByGuest(values.Id);
             return View(productValues);
         }
-
-        
 
         public IActionResult DeleteProductByGuest(int id)
         {
@@ -64,24 +63,24 @@ namespace RealEstate.PresentationLayer.Areas.Guest.Controllers
         }
 
         [HttpGet]
-        public IActionResult UpdateProductGuest(int id)
+        public IActionResult UpdateProductByGuest(int id)
         {
-            List<SelectListItem> categories = (from x in _categoryService.TGetList()
-                                               select new SelectListItem
-                                               {
-                                                   Text = x.CategoryName,
-                                                   Value = x.CategoryID.ToString()
-                                               }).ToList();
-            ViewBag.categories = categories;
-            var values = _productService.TGetByID(id);
-            return View(values);
+            List<SelectListItem> values = (from x in _categoryService.TGetList()
+                                           select new SelectListItem
+                                           {
+                                               Text = x.CategoryName,
+                                               Value = x.CategoryID.ToString()
+                                           }).ToList();
+            ViewBag.v = values;
+
+            var values2 = _productService.TGetByID(id);
+            return View(values2);
         }
-        public IActionResult UpdateProductGuest(Product p)
+        [HttpPost]
+        public IActionResult UpdateProductByGuest(Product p)
         {
             _productService.TUpdate(p);
             return RedirectToAction("Index");
         }
-
-
     }
 }

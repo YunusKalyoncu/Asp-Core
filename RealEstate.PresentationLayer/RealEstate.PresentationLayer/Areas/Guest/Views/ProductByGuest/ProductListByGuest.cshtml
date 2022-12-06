@@ -1,5 +1,4 @@
 ﻿@model List<Product>
-
 @{
     ViewData["Title"] = "ProductListByGuest";
     Layout = "~/Areas/Guest/Views/_GuestLayout.cshtml";
@@ -24,7 +23,7 @@
             <td>@item.Price</td>
             <td>@item.Date</td>
             <td><a href="/Guest/ProductByGuest/DeleteProductByGuest/@item.ProductID" class="btn btn-outline-danger">İlanı Kaldır</a></td>
-            <td><a href="/Guest/ProductByGuest/UpdateProductGuest/@item.ProductID" class="btn btn-outline-success">İlanı Düzenle</a></td>
+            <td><a href="/Guest/ProductByGuest/UpdateProductByGuest/@item.ProductID" class="btn btn-outline-success">İlanı Düzenle</a></td>
         </tr>
     }
 </table>

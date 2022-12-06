@@ -16,8 +16,8 @@ namespace RealEstate.PresentationLayer.Controllers
 
         public IActionResult Index()
         {
-           var values = _userManager.Users.ToList();
-            return View(values);    
+            var values = _userManager.Users.ToList();
+            return View(values);
         }
     }
 }

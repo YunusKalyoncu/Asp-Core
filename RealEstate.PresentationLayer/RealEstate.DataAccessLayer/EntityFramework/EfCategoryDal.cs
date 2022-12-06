@@ -1,5 +1,5 @@
 ﻿using RealEstate.DataAccessLayer.Abstract;
-using RealEstate.DataAccessLayer.Repository;
+using RealEstate.DataAccessLayer.Repositories;
 using RealEstate.EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;
@@ -11,5 +11,6 @@ namespace RealEstate.DataAccessLayer.EntityFramework
 {
     public class EfCategoryDal : GenericRepository<Category>,ICategoryDal
     {
+
     }
 }

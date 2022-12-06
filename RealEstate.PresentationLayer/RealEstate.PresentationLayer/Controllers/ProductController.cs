@@ -5,7 +5,6 @@ using RealEstate.EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace RealEstate.PresentationLayer.Controllers
 {
@@ -24,6 +23,7 @@ namespace RealEstate.PresentationLayer.Controllers
             var values = _productService.TGetProductByCategory();
             return View(values);
         }
+
         [HttpGet]
         public IActionResult AddProduct()
         {
@@ -34,6 +34,7 @@ namespace RealEstate.PresentationLayer.Controllers
                                                Value = x.CategoryID.ToString()
                                            }).ToList();
             ViewBag.v = values;
+
             return View();
         }
         [HttpPost]
@@ -43,24 +44,28 @@ namespace RealEstate.PresentationLayer.Controllers
             _productService.TInsert(p);
             return RedirectToAction("Index");
         }
+
         public IActionResult DeleteProduct(int id)
         {
             var values = _productService.TGetByID(id);
             _productService.TDelete(values);
             return RedirectToAction("Index");
+
         }
         [HttpGet]
         public IActionResult UpdateProduct(int id)
         {
-            List<SelectListItem> values1 = (from x in _categoryService.TGetList()
+            List<SelectListItem> values = (from x in _categoryService.TGetList()
                                            select new SelectListItem
                                            {
                                                Text = x.CategoryName,
                                                Value = x.CategoryID.ToString()
                                            }).ToList();
-            ViewBag.v = values1;
-            var values = _productService.TGetByID(id);
-            return View(values);
+            ViewBag.v = values;
+                
+            var values2 = _productService.TGetByID(id);
+
+            return View(values2);
         }
 
         [HttpPost]
@@ -69,10 +74,6 @@ namespace RealEstate.PresentationLayer.Controllers
             _productService.TUpdate(p);
             return RedirectToAction("Index");
         }
+
     }
 }
-/*
- using ödevi
-eager load - lazy load
-
- */

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RealEstate.PresentationLayer.ViewComponents.Adverts
 {
-    public class _AdvertFooterPartial:ViewComponent
+    public class _AdvertFooterPartial : ViewComponent
     {
         public IViewComponentResult Invoke()
         {

@@ -31,6 +31,7 @@ namespace RealEstate.PresentationLayer
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
             services.ContainerDependencies();
 
             services.AddDbContext<Context>();
@@ -55,7 +56,9 @@ namespace RealEstate.PresentationLayer
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+
             app.UseAuthentication();
+
             app.UseRouting();
 
             app.UseAuthorization();
@@ -64,13 +67,13 @@ namespace RealEstate.PresentationLayer
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");//Proje ilk çalýþtýðýnda Default olarak çalýþacak yolu gösterir
+                    pattern: "{controller=Home}/{action=Index}/{id?}");
             });
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
                   name: "areas",
-                  pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}" //Yönlendirilecek 2. alan
+                  pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
                 );
             });
         }

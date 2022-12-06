@@ -23,13 +23,13 @@
             <td>@item.Name</td>
             <td>@item.Surname</td>
             <td>@item.UserName</td>
-            @if(item.Gender=="erkek")
+            @if (item.Gender == "erkek")
             {
                 <td><span style="background-color:aqua">Erkek</span></td>
             }
             else
             {
-            <td><span style="background-color:red">Kadın</span></td>
+                <td><span style="background-color:red">Kadın</span></td>
 
             }
             <td><a href="/User/DeleteProduct/@item.Id" class="btn btn-outline-danger">Sil</a></td>
