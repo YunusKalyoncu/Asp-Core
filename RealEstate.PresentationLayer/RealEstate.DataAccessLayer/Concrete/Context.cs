@@ -13,7 +13,7 @@ namespace RealEstate.DataAccessLayer.Concrete
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-07T8MF2\\MSSQLSERVER01; initial catalog=DbCoreRealEstate0; integrated security=true");
+            optionsBuilder.UseSqlServer("Server=YUNUS\\SQLEXPRESS; initial catalog=DbCoreRealEstate; integrated security=true");
         }
 
         public DbSet<Member> Members { get; set; }

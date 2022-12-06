@@ -10,8 +10,8 @@ using RealEstate.DataAccessLayer.Concrete;
 namespace RealEstate.DataAccessLayer.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20221205194426_create_relation_comment")]
-    partial class create_relation_comment
+    [Migration("20221206111113_yeni_mig_güncell")]
+    partial class yeni_mig_güncell
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
