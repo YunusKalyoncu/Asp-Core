@@ -1,0 +1,39 @@
+﻿@model AppUser
+@{
+    Layout = null;
+}
+
+<h4>İlan Düzenleme Sayfası</h4>
+
+<form method="post">
+    
+    <input type="hidden" asp-for="UserID" class="form-control" />
+    <span asp-validation-for="UserID" class="text-danger"></span>
+    <br />
+    <label>Adınız</label>
+    <input type="text" asp-for="UserName" class="form-control" />
+    <span asp-validation-for="UserName" class="text-danger"></span>
+    <br />
+    <label>Soyadınız</label>
+    <input type="text" asp-for="Name" class="form-control" />
+    <span asp-validation-for="Name" class="text-danger"></span>
+    <br />
+    <label>Mail Adresiniz</label>
+    <input type="text" asp-for="Surname" class="form-control" />
+    <span asp-validation-for="Surname" class="text-danger"></span>
+    <br />
+    <label>Kullanıcı Adınız</label>
+    <input type="text" asp-for="Email" class="form-control" />
+    <span asp-validation-for="Email" class="text-danger"></span>
+    <br />
+    <label>Şifreniz</label>
+    <input type="text" asp-for="PasswordHash" class="form-control" />
+    <span asp-validation-for="PasswordHash" class="text-danger"></span>
+    <br />
+    <label>Şifre Tekrar</label>
+    <input type="text" asp-for="PasswordHash" class="form-control" />
+    <span asp-validation-for="PasswordHash" class="text-danger"></span>
+    <br />
+    <div asp-validation-summary="ModelOnly"></div>
+    <button class="btn btn-outline-dark">Kullanıcı Kaydet</button>
+</form>

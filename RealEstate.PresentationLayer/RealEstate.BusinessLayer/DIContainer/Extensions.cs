@@ -26,6 +26,8 @@ namespace RealEstate.BusinessLayer.DIContainer
 
             services.AddScoped<IContactService, ContactManager>();
             services.AddScoped<IContactDal, EfContactDal>();
+
+            
         }
     }
 }

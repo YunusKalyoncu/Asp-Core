@@ -58,5 +58,10 @@ namespace RealEstate.PresentationLayer.Controllers
             }
             return View();
         }
+        public PartialViewResult PartialRegister()
+        {
+            return PartialView();
+        }
+
     }
 }

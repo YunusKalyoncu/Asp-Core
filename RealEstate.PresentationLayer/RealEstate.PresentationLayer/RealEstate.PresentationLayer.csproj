@@ -5,10 +5,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Areas\Default\Data\**" />
+    <Compile Remove="Areas\Default\Models\**" />
     <Compile Remove="Areas\Guest\Data\**" />
+    <Compile Remove="ViewComponents\Contacts\**" />
+    <Content Remove="Areas\Default\Data\**" />
+    <Content Remove="Areas\Default\Models\**" />
     <Content Remove="Areas\Guest\Data\**" />
+    <Content Remove="ViewComponents\Contacts\**" />
+    <EmbeddedResource Remove="Areas\Default\Data\**" />
+    <EmbeddedResource Remove="Areas\Default\Models\**" />
     <EmbeddedResource Remove="Areas\Guest\Data\**" />
+    <EmbeddedResource Remove="ViewComponents\Contacts\**" />
+    <None Remove="Areas\Default\Data\**" />
+    <None Remove="Areas\Default\Models\**" />
     <None Remove="Areas\Guest\Data\**" />
+    <None Remove="ViewComponents\Contacts\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -42,9 +54,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\Default\Data\" />
-    <Folder Include="Areas\Default\Models\" />
-    <Folder Include="ViewComponents\Contacts\" />
     <Folder Include="wwwroot\Image\" />
     <Folder Include="wwwroot\pdfreport\" />
   </ItemGroup>
@@ -63,6 +72,44 @@
     <None Include="wwwroot\Cooking-Starter\assets\webfonts\fa-regular-400.woff2" />
     <None Include="wwwroot\Cooking-Starter\assets\webfonts\fa-solid-900.svg" />
     <None Include="wwwroot\Cooking-Starter\assets\webfonts\fa-solid-900.woff2" />
+    <None Include="wwwroot\creative_account_form\web\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\creative_account_form\web\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\creative_account_form\web\fonts\glyphicons-halflings-regular.svg" />
+    <None Include="wwwroot\creative_account_form\web\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="wwwroot\creative_account_form\web\images\.DS_Store" />
+    <None Include="wwwroot\creative_account_form\web\js\amcharts.js" />
+    <None Include="wwwroot\creative_account_form\web\js\bootstrap.js" />
+    <None Include="wwwroot\creative_account_form\web\js\bootstrap.min.js" />
+    <None Include="wwwroot\creative_account_form\web\js\cbpFWTabs.js" />
+    <None Include="wwwroot\creative_account_form\web\js\Chart.js" />
+    <None Include="wwwroot\creative_account_form\web\js\clndr.js" />
+    <None Include="wwwroot\creative_account_form\web\js\counterup.min.js" />
+    <None Include="wwwroot\creative_account_form\web\js\easing.js" />
+    <None Include="wwwroot\creative_account_form\web\js\easyResponsiveTabs.js" />
+    <None Include="wwwroot\creative_account_form\web\js\imagezoom.js" />
+    <None Include="wwwroot\creative_account_form\web\js\jquery-1.10.2.min.js" />
+    <None Include="wwwroot\creative_account_form\web\js\jquery-1.11.0.min.js" />
+    <None Include="wwwroot\creative_account_form\web\js\jquery-2.1.4.min.js" />
+    <None Include="wwwroot\creative_account_form\web\js\jquery.flexslider.js" />
+    <None Include="wwwroot\creative_account_form\web\js\jquery.flot.js" />
+    <None Include="wwwroot\creative_account_form\web\js\jquery.fn.gantt.js" />
+    <None Include="wwwroot\creative_account_form\web\js\jquery.nicescroll.js" />
+    <None Include="wwwroot\creative_account_form\web\js\light.js" />
+    <None Include="wwwroot\creative_account_form\web\js\lightbox-plus-jquery.min.js" />
+    <None Include="wwwroot\creative_account_form\web\js\menu_jquery.js" />
+    <None Include="wwwroot\creative_account_form\web\js\moment-2.2.1.js" />
+    <None Include="wwwroot\creative_account_form\web\js\move-top.js" />
+    <None Include="wwwroot\creative_account_form\web\js\owl.carousel.js" />
+    <None Include="wwwroot\creative_account_form\web\js\pie-chart.js" />
+    <None Include="wwwroot\creative_account_form\web\js\responsiveslides.min.js" />
+    <None Include="wwwroot\creative_account_form\web\js\scripts.js" />
+    <None Include="wwwroot\creative_account_form\web\js\serial.js" />
+    <None Include="wwwroot\creative_account_form\web\js\simpleCart.min.js" />
+    <None Include="wwwroot\creative_account_form\web\js\simplePlayer.js" />
+    <None Include="wwwroot\creative_account_form\web\js\site.js" />
+    <None Include="wwwroot\creative_account_form\web\js\SmoothScroll.min.js" />
+    <None Include="wwwroot\creative_account_form\web\js\underscore-min.js" />
+    <None Include="wwwroot\creative_account_form\web\js\waypoints.min.js" />
   </ItemGroup>
 
 </Project>

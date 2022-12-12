@@ -11,6 +11,7 @@ namespace RealEstate.PresentationLayer.Areas.Default.Controllers
 {
     [AllowAnonymous]
     [Area("Default")]
+    [Route("Default/Contact")]
     public class ContactController : Controller
     {
         private readonly IContactService _contactService;
@@ -20,17 +21,21 @@ namespace RealEstate.PresentationLayer.Areas.Default.Controllers
             _contactService = contactService;
         }
 
+        [Route("")]
+        [Route("Index")]
         public IActionResult Index()
         {
             return View();
         }
-
+        [Route("")]
+        [Route("PartialSendMessage")]
         [HttpGet]
-        public IActionResult PartialSendMessage()
+        public PartialViewResult PartialSendMessage()
         {
             return PartialView();
         }
-
+        [Route("")]
+        [Route("PartialSendMessage")]
         [HttpPost]
         public IActionResult PartialSendMessage(Contact contact)
         {
