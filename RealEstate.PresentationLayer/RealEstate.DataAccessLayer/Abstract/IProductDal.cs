@@ -7,10 +7,9 @@ using System.Threading.Tasks;
 
 namespace RealEstate.DataAccessLayer.Abstract
 {
-    public interface IProductDal:IGenericDal<Product>
+    public interface IProductDal : IGenericDal<Product>
     {
         List<Product> GetProductByCategory();
         List<Product> GetProductByGuest(int id);
-
     }
 }

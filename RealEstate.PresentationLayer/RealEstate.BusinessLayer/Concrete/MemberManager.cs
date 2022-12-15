@@ -13,14 +13,19 @@ namespace RealEstate.BusinessLayer.Concrete
     {
         IMemberDal _memberDal;
 
-        //BAğımlılıkları minimize etme >>Dependest Injection
-
-
-        //Yapıcı Method, sayfa yüklenince ilk başvurulacak methot
-        //class'ın üstüne tıkla Ctrl+. Generic Constroctor'ı seç ve tamama tıkla
         public MemberManager(IMemberDal memberDal)
         {
             _memberDal = memberDal;
+        }
+
+        public void TDelete(Member t)
+        {
+            _memberDal.Delete(t);
+        }
+
+        public Member TGetByID(int id)
+        {
+            return _memberDal.GetByID(id);
         }
 
         public List<Member> TGetList()
@@ -36,17 +41,6 @@ namespace RealEstate.BusinessLayer.Concrete
         public void TUpdate(Member t)
         {
             _memberDal.Update(t);
-
-        }
-        public void TDelete(Member t)
-        {
-            _memberDal.Delete(t);
-
-        }
-
-        public Member TGetByID(int id)
-        {
-            return _memberDal.GetByID(id);
         }
     }
 }

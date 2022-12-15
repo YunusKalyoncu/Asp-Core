@@ -13,8 +13,9 @@ namespace RealEstate.BusinessLayer.DIContainer
 {
     public static class Extensions
     {
-        public static void ContainerDependencies(this IServiceCollection services)
+        public static void ContainerDependencies(this IServiceCollection services) //this kesinlikle eklenmeli, startup görmez yoksa
         {
+
             services.AddScoped<ICategoryService, CategoryManager>();
             services.AddScoped<ICategoryDal, EfCategoryDal>();
 
@@ -26,6 +27,9 @@ namespace RealEstate.BusinessLayer.DIContainer
 
             services.AddScoped<IContactService, ContactManager>();
             services.AddScoped<IContactDal, EfContactDal>();
+
+            services.AddScoped<IUserService, UserManager>();
+            services.AddScoped<IUserDal, EfUserDal>();
 
             
         }

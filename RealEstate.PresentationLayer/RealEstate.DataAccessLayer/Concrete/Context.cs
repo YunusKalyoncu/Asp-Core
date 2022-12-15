@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 
 namespace RealEstate.DataAccessLayer.Concrete
 {
-    public class Context:IdentityDbContext<AppUser,AppRole,int>
+    public class Context : IdentityDbContext<AppUser, AppRole, int>
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=YUNUS\\SQLEXPRESS; initial catalog=DbCoreRealEstate; integrated security=true");
+            optionsBuilder.UseSqlServer("Server=DESKTOP-0A6CNA1;initial catalog=DbCoreRealEstate; integrated security=true");
         }
 
         public DbSet<Member> Members { get; set; }
@@ -22,7 +22,7 @@ namespace RealEstate.DataAccessLayer.Concrete
         public DbSet<About> Abouts { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<Comment> Comments { get; set; }
-
-        public DbSet<AppUser> appUsers { get; set; }
+        public DbSet<Personal> personals { get; set; }
+       
     }
 }

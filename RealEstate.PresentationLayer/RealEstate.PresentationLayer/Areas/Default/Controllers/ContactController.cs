@@ -27,16 +27,21 @@ namespace RealEstate.PresentationLayer.Areas.Default.Controllers
         {
             return View();
         }
+
+        
+        [HttpGet]
         [Route("")]
         [Route("PartialSendMessage")]
-        [HttpGet]
-        public PartialViewResult PartialSendMessage()
+        public IActionResult PartialSendMessage()
         {
             return PartialView();
         }
+
+
+        
+        [HttpPost]
         [Route("")]
         [Route("PartialSendMessage")]
-        [HttpPost]
         public IActionResult PartialSendMessage(Contact contact)
         {
             contact.ContactDate = DateTime.Parse(DateTime.Now.ToShortDateString());

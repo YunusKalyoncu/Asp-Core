@@ -1,17 +1,22 @@
-﻿@model List<Comment>
+﻿
+@model List<Comment>
 
 <div class="container">
     <div class="w3l-header-sec text-center mb-md-5 mb-4">
-        <h1 class="sub-title">Yorumlar</h1>
+        <h5 class="sub-title">Yorumlar</h5>
     </div>
-    @foreach (var item in Model) 
-    { 
+    @foreach(var x in Model)
+    {
+        
+    
     <div class="cont-details">
-        <div class="cont-top margin-up" style="border:1px solid #F50537;border-radius:5px; padding:5px">
-
+        <div class="cont-top margin-up" style="border:1px solid #F50537; padding:5px; border-radius:5px;">
+            <div class="cont-left text-center">
+                <i class="fas fa-map-marked-alt"></i>
+            </div>
             <div class="cont-right">
-                <h6 style="color: #F50537">@item.NameSurname</h6>
-                <p>@item.Content</p>
+                <h6 style="color:#F50537;">@x.NameSurname</h6>
+                <p>@x.Content</p>
             </div>
         </div>
     </div>

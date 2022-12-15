@@ -1,6 +1,5 @@
 ﻿using RealEstate.BusinessLayer.Abstract;
 using RealEstate.DataAccessLayer.Abstract;
-using RealEstate.DataAccessLayer.EntityFramework;
 using RealEstate.EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;

@@ -7,9 +7,7 @@ using System.Threading.Tasks;
 
 namespace RealEstate.BusinessLayer.Abstract
 {
-    public interface IAboutService:IGenericService<About>
+    public interface IAboutService : IGenericService<About>
     {
-
-
     }
 }

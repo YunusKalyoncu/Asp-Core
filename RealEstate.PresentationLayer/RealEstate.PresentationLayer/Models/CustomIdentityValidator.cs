@@ -4,20 +4,21 @@ namespace RealEstate.PresentationLayer.Models
 {
     public class CustomIdentityValidator:IdentityErrorDescriber
     {
-        public override IdentityError PasswordTooShort(int length)
+        public override IdentityError PasswordTooShort(int length)   //Default olan hataları burada istenilen şekilde değiştirebiliriz.
         {
             return new IdentityError()
             {
                 Code = "PasswordTooShort",
-                Description = "En az 4 karakter olmalıdır"
+                Description = "En az 4 karakter giriniz."
             };
         }
+
         public override IdentityError PasswordRequiresLower()
         {
             return new IdentityError()
             {
                 Code = "PasswordRequiresLower",
-                Description = "En az 1 tane küçük harf girilmelidir"
+                Description = "En az 1 küçük harf giriniz."
             };
         }
 
@@ -26,7 +27,7 @@ namespace RealEstate.PresentationLayer.Models
             return new IdentityError()
             {
                 Code = "PasswordRequiresUpper",
-                Description = "En az 1 tane büyük harf girilmelidir"
+                Description = "En az 1 büyük harf giriniz."
             };
         }
 
@@ -35,24 +36,25 @@ namespace RealEstate.PresentationLayer.Models
             return new IdentityError()
             {
                 Code = "PasswordRequiresDigit",
-                Description = "En az 1 tane sayı girilmelidir"
+                Description = "En az 1 sayı giriniz."
             };
         }
+
         public override IdentityError PasswordRequiresNonAlphanumeric()
         {
             return new IdentityError()
             {
                 Code = "PasswordRequiresNonAlphanumeric",
-                Description = "En az 1 tane sembol girilmelidir"
+                Description = "En az 1 sembol giriniz."
             };
         }
+
         public override IdentityError DuplicateEmail(string email)
         {
             return new IdentityError()
             {
                 Code = "DuplicateEmail",
-                Description = $"Bu mail adresi:{email} sistemde kayıtlı"
-
+                Description = $"Bu mail adresi: {email} sistemde kayıtlı."
             };
         }
 
@@ -61,11 +63,8 @@ namespace RealEstate.PresentationLayer.Models
             return new IdentityError()
             {
                 Code = "PasswordMismatch",
-                Description = "Şifreler eşleşmiyor"
-
+                Description = "Şifreler uyuşmuyor"
             };
         }
-
-
     }
 }

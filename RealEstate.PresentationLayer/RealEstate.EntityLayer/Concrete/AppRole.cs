@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 
 namespace RealEstate.EntityLayer.Concrete
 {
-    public class AppRole:IdentityRole<int>
+    public class AppRole : IdentityRole<int>
     {
-
     }
 }

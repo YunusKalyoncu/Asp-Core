@@ -3,18 +3,62 @@
 @{
     Layout = null;
 }
-<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
-<div class="container">
-    <form method="post">
-        <label>Kullanıcı adınız</label>
-        <input type="text" class="form-control" asp-for="username" />
-        <span asp-validation-for="username" class="text-danger"></span>
-        <br />
-        <label>Şifreniz</label>
-        <input type="password" class="form-control" asp-for="password" />
-        <span asp-validation-for="password" class="text-danger"></span>
-        <br />
-        <div asp-validation-summary="ModelOnly"></div>
-        <button class="btn btn-outline-dark">Giriş Yap</button>
-    </form>
-</div>""
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <title>Real Estate</title>
+
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Google fonts -->
+    <link href="//fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="/service-loginform-starter_Free18-01-2021_399861181/starter/css/style.css" type="text/css" media="all" />
+
+</head>
+
+<body>
+    <div class="signinform">
+        <h1></h1>
+        <!-- container -->
+        <div class="container">
+            <!-- main content -->
+            <div class="w3l-form-info">
+                <div class="w3_info">
+                    <h2>Giriş Yap</h2>
+                    <form action="#" method="post">
+                        <div class="input-group">
+                            <span><i class="fas fa-user" aria-hidden="true"></i></span>
+                            <input type="text" placeholder="Kullanıcı Adınız" asp-for="username" required="">
+                        </div>
+                        <div class="input-group">
+                            <span><i class="fas fa-key" aria-hidden="true"></i></span>
+                            <input type="Password" placeholder="Şifre" asp-for="password" required="">
+                        </div>
+                        <div class="form-row bottom">
+                            <div class="form-check">
+                                <input type="checkbox" id="remenber" name="remenber" value="remenber">
+                                <label for="remenber"> Beni Hatırla</label>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary btn-block" type="submit">Giriş Yap</button>
+                    </form>
+                    <p class="account">Bir Hesabın Yok mu? <a href="#signup">Kayıt Ol</a></p>
+                </div>
+            </div>
+            <!-- //main content -->
+        </div>
+
+    </div>
+
+    <!-- fontawesome v5-->
+    <script src="/service-loginform-starter_Free18-01-2021_399861181/js/fontawesome.js"></script>
+
+</body>
+
+</html>

@@ -7,10 +7,9 @@ using System.Threading.Tasks;
 
 namespace RealEstate.BusinessLayer.Abstract
 {
-    public interface IProductService:IGenericService<Product>
+    public interface IProductService : IGenericService<Product>
     {
         List<Product> TGetProductByCategory();
         List<Product> TGetProductByGuest(int id);
-       
     }
 }

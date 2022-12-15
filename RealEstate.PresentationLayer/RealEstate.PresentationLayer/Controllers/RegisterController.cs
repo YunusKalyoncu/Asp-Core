@@ -2,6 +2,9 @@
 using Microsoft.AspNetCore.Mvc;
 using RealEstate.EntityLayer.Concrete;
 using RealEstate.PresentationLayer.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace RealEstate.PresentationLayer.Controllers
@@ -20,7 +23,6 @@ namespace RealEstate.PresentationLayer.Controllers
         {
             return View();
         }
-
         [HttpPost]
         public async Task<IActionResult> Index(UserRegisterViewModel p)
         {
@@ -34,8 +36,6 @@ namespace RealEstate.PresentationLayer.Controllers
                     Email = p.mail
                 };
 
-
-
                 if (p.password == p.confirmpassword)
                 {
                     var result = await _userManager.CreateAsync(appUser, p.password);
@@ -45,7 +45,7 @@ namespace RealEstate.PresentationLayer.Controllers
                     }
                     else
                     {
-                        foreach (var item in result.Errors)
+                        foreach(var item in result.Errors)
                         {
                             ModelState.AddModelError("", item.Description);
                         }
@@ -58,10 +58,5 @@ namespace RealEstate.PresentationLayer.Controllers
             }
             return View();
         }
-        public PartialViewResult PartialRegister()
-        {
-            return PartialView();
-        }
-
     }
 }

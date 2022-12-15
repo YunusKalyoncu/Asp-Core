@@ -7,40 +7,32 @@ namespace RealEstate.PresentationLayer.Controllers
 {
     public class MailController : Controller
     {
-
         [HttpGet]
         public IActionResult Index()
         {
             return View();
         }
-        [HttpPost]
 
+        [HttpPost]
         public IActionResult Index(MailRequest p)
         {
             MimeMessage mimeMessage = new MimeMessage();
-
-
-            MailboxAddress mailboxAddressFrom = new MailboxAddress("Admin RealEstate", "enesozcanturksat@gmail.com");
+            //MAili yollayan
+            MailboxAddress mailboxAddressFrom = new MailboxAddress("Admin RealEstate","eulusoy139@gmail.com");
             mimeMessage.From.Add(mailboxAddressFrom);
 
-
-
-            MailboxAddress mailboxAddressTo = new MailboxAddress("User", p.ReceiverMail);
+            //mailin gönderileceği kişi
+            MailboxAddress mailboxAddressTo = new MailboxAddress("User", p.ReciverMail);
             mimeMessage.To.Add(mailboxAddressTo);
 
-
-
             var bodybuilder = new BodyBuilder();
-            bodybuilder.TextBody = p.Content;
+            bodybuilder.TextBody = p.Content; //İçeriğin ne olduğunu belirttik.
             mimeMessage.Body = bodybuilder.ToMessageBody();
-            mimeMessage.Subject = p.Subject;
+            mimeMessage.Subject = p.Subject; 
 
-
-
-            SmtpClient smtpClient = new SmtpClient();
-            smtpClient.Connect("smtp.gmail.com", 587, false);
-            smtpClient.Authenticate("enesozcanturksat@gmail.com", "dmaihrkzkzfahoqp");
-            smtpClient.Send(mimeMessage);
+            SmtpClient smtpClient = new SmtpClient();   
+            smtpClient.Connect("smtp.gmail.com",587,false); // format ve port nmarası   
+            smtpClient.Authenticate("eulusoy@gmail.com", "");
             smtpClient.Disconnect(true);
 
             return View();

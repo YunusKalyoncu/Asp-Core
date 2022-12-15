@@ -8,11 +8,8 @@ using System.Threading.Tasks;
 
 namespace RealEstate.BusinessLayer.ValidationRules
 {
-    public class MemberValidator:AbstractValidator<Member>
+    public class MemberValidator : AbstractValidator<Member>
     {
-
-        //ctor yapıcı (constactor) method oluşturma 
-        //kendisi bulunduğu sınıfın ismi ile aynı isimde olan methoda yapıcı method denir
         public MemberValidator()
         {
             RuleFor(x => x.MemberName).NotEmpty().WithMessage("lütfen ad alanını boş geçmeyin!");

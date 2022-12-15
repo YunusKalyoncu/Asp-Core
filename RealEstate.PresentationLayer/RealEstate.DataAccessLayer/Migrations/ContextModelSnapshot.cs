@@ -226,9 +226,6 @@ namespace RealEstate.DataAccessLayer.Migrations
                     b.Property<bool>("TwoFactorEnabled")
                         .HasColumnType("bit");
 
-                    b.Property<int>("UserID")
-                        .HasColumnType("int");
-
                     b.Property<string>("UserName")
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
@@ -341,6 +338,36 @@ namespace RealEstate.DataAccessLayer.Migrations
                     b.ToTable("Members");
                 });
 
+            modelBuilder.Entity("RealEstate.EntityLayer.Concrete.Personal", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Amount")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Dates")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Progress")
+                        .HasColumnType("int");
+
+                    b.Property<string>("image")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("surname")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ID");
+
+                    b.ToTable("personals");
+                });
+
             modelBuilder.Entity("RealEstate.EntityLayer.Concrete.Product", b =>
                 {
                     b.Property<int>("ProductID")
@@ -446,7 +473,7 @@ namespace RealEstate.DataAccessLayer.Migrations
             modelBuilder.Entity("RealEstate.EntityLayer.Concrete.Product", b =>
                 {
                     b.HasOne("RealEstate.EntityLayer.Concrete.AppUser", "AppUser")
-                        .WithMany("Product")
+                        .WithMany("Products")
                         .HasForeignKey("AppUserID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -464,7 +491,7 @@ namespace RealEstate.DataAccessLayer.Migrations
 
             modelBuilder.Entity("RealEstate.EntityLayer.Concrete.AppUser", b =>
                 {
-                    b.Navigation("Product");
+                    b.Navigation("Products");
                 });
 
             modelBuilder.Entity("RealEstate.EntityLayer.Concrete.Category", b =>

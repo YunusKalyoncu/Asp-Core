@@ -35,7 +35,7 @@ namespace RealEstate.BusinessLayer.Concrete
 
         public void TInsert(Contact t)
         {
-            _contactDal.Insert(t);
+            _contactDal.Insert(t);  
         }
 
         public void TUpdate(Contact t)

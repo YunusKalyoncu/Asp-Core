@@ -6,21 +6,34 @@
 <!doctype html>
 <html lang="en">
 
-@await Component.InvokeAsync("_AdvertHeadPartial")
+      @await Component.InvokeAsync("_AdvertHeadPartial")
 
 <body>
-
+  
     @await Component.InvokeAsync("_AdvertHeaderPartial")
-
+    <!-- //header -->
+    <!-- inner banner -->
     @await Component.InvokeAsync("_AdvertBannerPartial")
-
+    <!-- //inner banner -->
+    <!-- courses section -->
     @await Component.InvokeAsync("_AdvertListPartial")
 
-    @await Component.InvokeAsync("_AdvertIntroducePartial")
+    <!-- //courses section -->
+    <!-- content block1 -->
+    @await Component.InvokeAsync("_AdvertIntroducePartial") 
+    <!-- //content block1 -->
+    <!-- about 3grids section -->
+    <!-- //about 3grids section -->
 
-    @await Component.InvokeAsync("_AdvertFooterPartial")
+    <!-- footer -->
+    @await Component.InvokeAsync("_AdvertFooterpartial")
 
+    <!-- //footer -->
+    <!-- Js scripts -->
+    <!-- move top -->
     @await Component.InvokeAsync("_AdvertScriptPartial")
 
+   
 </body>
+
 </html>

@@ -3,14 +3,12 @@ using Microsoft.AspNetCore.Mvc;
 using RealEstate.DataAccessLayer.Concrete;
 using RealEstate.EntityLayer.Concrete;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace RealEstate.PresentationLayer.Areas.Default.Controllers
 {
-    [Area("Default")]
     [AllowAnonymous]
+    [Area("Default")]
     [Route("Default/Advert")]
     public class AdvertController : Controller
     {
@@ -37,8 +35,8 @@ namespace RealEstate.PresentationLayer.Areas.Default.Controllers
 
         public PartialViewResult CommentByAdvert(int id)
         {
-            Context context = new Context();
-            var values = context.Comments.Where(x => x.ProductID == id).ToList();
+            Context contect= new Context();
+            var values = contect.Comments.Where(x => x.ProductID == id).ToList();
             return PartialView(values);
         }
 
@@ -57,7 +55,7 @@ namespace RealEstate.PresentationLayer.Areas.Default.Controllers
         {
             Context context = new Context();
             p.Date = DateTime.Parse(DateTime.Now.ToShortDateString());
-            p.ProductID = 1;
+            p.ProductID = 1003;
             context.Comments.Add(p);
             context.SaveChanges();
             return RedirectToAction("Index");

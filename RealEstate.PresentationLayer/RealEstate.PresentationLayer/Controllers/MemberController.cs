@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Mvc;
 using RealEstate.BusinessLayer.Abstract;
 using RealEstate.BusinessLayer.ValidationRules;
-using RealEstate.BusinessLayer.ValidationRules;
 using RealEstate.EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;
@@ -13,9 +12,6 @@ namespace RealEstate.PresentationLayer.Controllers
 {
     public class MemberController : Controller
     {
-        //bu methot sadece çağırılacak başka işlem yapılmaaycak anlamı taşıması için private readonly
-
-
         private readonly IMemberService _memberService;
 
         public MemberController(IMemberService memberService)
@@ -28,8 +24,6 @@ namespace RealEstate.PresentationLayer.Controllers
             var values = _memberService.TGetList();
             return View(values);
         }
-
-
 
         [HttpGet]
         public IActionResult AddMember()
@@ -48,9 +42,8 @@ namespace RealEstate.PresentationLayer.Controllers
             }
             else
             {
-                foreach (var item in result.Errors)
+                foreach(var item in result.Errors)
                 {
-                    //controller tarafındaki hataları view tarafına taşıyan komut modelstate
                     ModelState.AddModelError(item.PropertyName, item.ErrorMessage);
                 }
             }
@@ -76,8 +69,5 @@ namespace RealEstate.PresentationLayer.Controllers
             _memberService.TUpdate(member);
             return RedirectToAction("Index");
         }
-
-
-
     }
 }

@@ -1,12 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using RealEstate.BusinessLayer.Abstract;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using X.PagedList;
+
 namespace RealEstate.PresentationLayer.ViewComponents.Adverts
 {
-    public class _AdvertListPartial : ViewComponent
+    public class _AdvertListPartial:ViewComponent
     {
         private readonly IProductService _productService;
 
@@ -15,9 +13,11 @@ namespace RealEstate.PresentationLayer.ViewComponents.Adverts
             _productService = productService;
         }
 
-        public IViewComponentResult Invoke()
+        public IViewComponentResult Invoke(int page=1)
         {
-            var values = _productService.TGetProductByCategory();
+           
+            var values = _productService.TGetProductByCategory().ToPagedList(page , 6);
             return View(values);
-        }    }
+        }
+    }
 }
